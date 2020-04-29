@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Instagram Auto Follow",
+    "description": "Extensão para automatizar o processo seguir no instagram",
+    "version": "0.0.1",
+    "content_scripts": [{
+        "matches": [
+            "https://www.instagram.com/*"
+        ],
+        "js": [
+            "index.js"
+        ]
+    }]
+}
